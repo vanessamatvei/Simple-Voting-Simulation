@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting and Random Check Simulation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .vote-box {
+            display: flex;
+            margin-top: 20px;
+        }
+        .vote {
+            margin-right: 10px;
+        }
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Simple Voting Simulation</h1>
+
+    <div class="vote-box">
+        <div class="vote">
+            <label for="voter1">Vote for Voter 1:</label>
+            <input type="text" id="voter1" placeholder="Enter vote (e.g., 'Yes' or 'No')">
+        </div>
+        <div class="vote">
+            <label for="voter2">Vote for Voter 2:</label>
+            <input type="text" id="voter2" placeholder="Enter vote (e.g., 'Yes' or 'No')">
+        </div>
+        <div class="vote">
+            <label for="voter3">Vote for Voter 3:</label>
+            <input type="text" id="voter3" placeholder="Enter vote (e.g., 'Yes' or 'No')">
+        </div>
+    </div>
+
+    <button onclick="castVotes()">Submit Votes</button>
+
+    <div class="result" id="result"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
