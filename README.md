@@ -2,7 +2,7 @@
 
 This project is a simple voting simulation designed to demonstrate randomized vote processing while keeping individual votes private. Each ballot is entered individually, and the system simulates randomness in vote handling to reflect privacy in voting scenarios.
 
-Features
+### Features
 - Enter votes for multiple voters and submit them.
 - Votes are processed and displayed in a results section.
 - Simple, responsive UI built with HTML, CSS, and JavaScript.
