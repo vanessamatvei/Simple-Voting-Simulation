@@ -9,3 +9,5 @@ This project is a simple voting simulation designed to demonstrate randomized vo
 - Randomized processing demonstrates the concept of privacy in voting simulations.
 
 This project originated as an idea for a *local democracy hackathon* in October 2024. The concept is functional in this version, but further development is encouraged to enhance its features.
+
+Hackathon team name: *ReLu* <3
